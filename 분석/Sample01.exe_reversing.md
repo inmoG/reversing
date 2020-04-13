@@ -22,6 +22,7 @@
 ### StartUp 코드
 
 ![startUp코드0.png](https://images.velog.io/post-images/jjewqm/bc0b6e80-4289-11ea-8726-452aa24104a7/startUp코드0.png)
+
 디버거에 올려보니 `0x00401030` 주소에서 멈춘다. 이 주소는 StartUP 코드이다.
 StartUp 코드는 컴파일러가 실행파일을 만들 때 집어넣는 코드로 main() 함수 앞 단에 위치한다.
 따라서 StartUp 코드는 건너뛰고 빠르게 main()를 찾아야 한다.
